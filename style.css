@@ -78,3 +78,114 @@ header ul {
 p{
   margin: 10px auto;
 }
+
+.information {
+  text-align: center;
+}
+
+.information h2 {
+  color: #1F2937;
+  font-weight: 900;
+  font-size: 32px;
+}
+
+.cube-area {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  height: 350px;
+}
+
+.cubes {
+  width: 250px;
+}
+
+.cubes img {
+  height: 200px;
+  width: 200px;
+  border: 6px solid #3b82f6;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.cubes p {
+  color: #616A76;
+}
+
+.cubes p a {
+  display: block;
+  color: #616A76;
+  text-decoration: none;
+}
+
+.quote {
+  padding: 0px 400px;
+  background-color: #E5E7EB;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.quote blockquote em {
+  font-size: 32px;
+  color: #1F2937;
+  font-weight: 300;
+}
+
+.quote p {
+  margin: 0 0 0 auto;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.action-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  padding: 0 200px;
+}
+
+.action {
+  height: 200px;
+  width: 1250px;
+  background-color: #3b82f6;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+}
+
+.action .left,
+.right {
+  color: #fff;
+}
+
+.action .left h3,
+p {
+  margin: 8px 0;
+}
+
+.action .left p {
+  color: #E5E7EB;
+}
+
+.action .right button {
+  background-color: #3882F6;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  padding: 8px 30px;
+  color: #fff;
+}
+
+footer {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1F2937;
+  color: #F9FAF8;
+}
